@@ -1,1 +1,31 @@
-<p>porfolio works!</p>
+<section class="container">
+  <div class="proyect__tittle">
+    <h2>Some of my proyects are:</h2>
+    <p class="proyect__p">
+      My portfolio reflects my passion for programming and showcases projects I
+      have worked on, demonstrating my ability to develop functional and
+      high-quality web applications. I am excited to continue growing as a
+      developer and contribute to the development of innovative solutions.
+    </p>
+  </div>
+
+  <div class="proyect__container">
+    <div class="card" *ngFor="let item of data | keyvalue">
+      <img alt="Card" [src]="item.value.image" />
+      <p>{{ item.value.text }}</p>
+      <p-button
+        label="Web"
+        icon="pi pi-angle-right"
+        (onClick)="redirectTo(item.value.web)"
+        styleClass="p-button-rounded p-button-text"
+      ></p-button>
+      <p-button
+        (onClick)="redirectTo(item.value.github)"
+        icon="pi pi-github"
+        styleClass="p-button-rounded p-button-text"
+        label="Github"
+        [style]="{ padding: '0.6rem' }"
+      ></p-button>
+    </div>
+  </div>
+</section>

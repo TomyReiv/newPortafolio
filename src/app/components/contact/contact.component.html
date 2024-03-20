@@ -1,1 +1,75 @@
-<p>contact works!</p>
+<section class="container">
+  <div class="contact__main row">
+    <h2 class="main__title">If you want to reach me</h2>
+    <div class="contact__main__form col">
+      <main class="main">
+        <div class="main__card">
+          <div class="main__text">
+            <form
+              class="contact-form"
+              (submit)="send()"
+              [formGroup]="myForm"
+            >
+              <fieldset>
+                <legend>Your Information</legend>
+                <hr />
+                <div class="form-group">
+                  <label for="name">Your Name:</label>
+                  <input
+                    type="text"
+                    id="name"
+                    formControlName="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                  />
+                  <span *ngIf="validField('name')">{{
+                    fieldError("name")
+                  }}</span>
+                </div>
+                <div class="form-group">
+                  <label for="email">Your Email:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    formControlName="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                  />
+                  <span *ngIf="validField('email')"
+                    >*This field is required</span
+                  >
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend>Your Message</legend>
+                <hr />
+                <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea
+                    id="message"
+                    formControlName="message"
+                    name="message"
+                    placeholder="Enter your message"
+                    cols="20"
+                    rows="9"
+                    required
+                  ></textarea>
+                  <span *ngIf="validField('message')">{{
+                    fieldError("message")
+                  }}</span>
+                </div>
+                <span class="mensaje" *ngIf="enviado"
+                  >Message sent successfully</span
+                >
+                <button type="submit">Send Message</button>
+              </fieldset>
+              
+            </form>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</section>

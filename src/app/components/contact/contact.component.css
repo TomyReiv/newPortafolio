@@ -1,0 +1,163 @@
+.container {
+  position: relative;
+  padding: 2rem;
+  margin-left: 10%;
+  margin-top: 10rem;
+  width: 100%;
+  animation: shadowMovement 2s infinite alternate;
+}
+@keyframes shadowMovement {
+  0% {
+    -webkit-box-shadow: 0px -2px 26px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px -2px 26px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px -2px 26px 0px #3b82f6;
+  }
+  100% {
+    -webkit-box-shadow: 0px -2px 26px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px -2px 26px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px -2px 26px 0px rgba(187, 187, 225, 0.75);
+  }
+}
+
+.contact__main__form {
+  margin: 3rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+label {
+  font-size: 1.7rem;
+  margin: 1rem;
+}
+
+.textarea {
+  width: 100%;
+  margin: auto;
+  margin-left: 0;
+}
+
+.main__title {
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.mensaje{
+  margin-left: 1rem;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #000;
+  background: radial-gradient(circle, rgba(2,0,36,1) 60%, rgba(19,19,85,1) 95%);
+  color: #fff;
+  font-size: 1rem;
+  animation: efect-border 5s linear infinite alternate;
+}
+span{
+  color: #991c1c;
+}
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  background-color: rgba(19,19,85,1);
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3b82f6;
+}
+
+.contact__main__map {
+  max-height: 33rem;
+}
+
+@keyframes efect-border {
+  0% {
+    border: 2px solid #000;
+  }
+  15% {
+    border: 2px solid #141010;
+  }
+  30% {
+    border: 2px solid #292424;
+  }
+  45% {
+    border: 2px solid #3c3a3a;
+  }
+  60% {
+    border: 2px solid #4e4c4c;
+  }
+  75% {
+    border: 2px solid #5f5d5d;
+  }
+  90% {
+    border: 2px solid #6f6e6e;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .container{
+    margin-left: 0;
+  }
+  .contact__main {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0;
+  }
+  .contact__main__form {
+    width: 98%;
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+
+  input {
+    width: 100%;
+  }
+  .contact__main__map {
+    max-height: 33rem;
+    max-width: 25rem;
+    margin: auto;
+  }
+}
+

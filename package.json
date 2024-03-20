@@ -18,6 +18,7 @@
     "@angular/platform-browser": "^16.1.0",
     "@angular/platform-browser-dynamic": "^16.1.0",
     "@angular/router": "^16.1.0",
+    "@emailjs/browser": "^4.3.3",
     "bootstrap-icons": "^1.11.3",
     "primeicons": "^6.0.1",
     "primeng": "^17.11.0",

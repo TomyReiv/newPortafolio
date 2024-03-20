@@ -16,7 +16,7 @@ export class MenuComponent {
       {
         label: 'headers',
         command: () => this.scrollTop(),
-        icon: '../../../assets/miavatar.png'
+        icon: '../../../assets/miavatar.png',
       },
       {
         label: 'aboute',

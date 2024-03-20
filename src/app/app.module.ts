@@ -10,7 +10,8 @@ import { AbouteComponent } from './components/aboute/aboute.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { PorfolioComponent } from './components/porfolio/porfolio.component';
 import { StylesModule } from './styles/styles.module';
-
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,10 @@ import { StylesModule } from './styles/styles.module';
     BrowserModule,
     AppRoutingModule,
     ComponentsModule,
-    StylesModule
+    StylesModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
