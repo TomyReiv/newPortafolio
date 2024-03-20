@@ -1,0 +1,33 @@
+<main class="header">
+  <div class="header__img">
+    <img src="../../../assets/miavatar.png" alt="Avatar" />
+  </div>
+  <div class="header__text">
+    <h2>Hi, I´m Tomas 👋.</h2>
+    <h1>Full-stack developer</h1>
+    <p>I love creating interactives web pages.</p>
+    <p-button
+      (click)="redirectTo('github.com/TomyReiv')"
+      icon="pi pi-github"
+      styleClass="p-button-rounded p-button-text"
+      label="Github"
+      [style]="{ padding: '0.6rem' }"
+    ></p-button>
+    <p-button
+      (click)="redirectTo('/www.linkedin.com/in/tomas-rave-38794025a/')"
+      icon="pi pi-linkedin"
+      styleClass="p-button-rounded p-button-text"
+      label="Linkedin"
+      [style]="{ padding: '0.6rem' }"
+    ></p-button>
+    <a [href]="cvUrl" download>
+      <p-button
+        icon="pi pi-file"
+        styleClass="p-button-rounded p-button-text"
+        label="CV"
+        [style]="{ padding: '0.6rem' }"
+      >
+      </p-button>
+    </a>
+  </div>
+</main>

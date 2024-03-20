@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    margin-left: 10%;
+    gap: 1rem;
+}
+img{
+    width: 20rem;
+    height: 20rem;
+}
+.header__text{
+   max-width: 20rem;
+}
+.header__text h1 {
+    color: #3B82F6;
+}
+@media (width <= 850px) {
+    .header{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+    .header__text{
+        text-align: center;
+    }
+}

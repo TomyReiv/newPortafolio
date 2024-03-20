@@ -1,0 +1,44 @@
+{
+   "Coversor": {
+    "image": "../../../assets/divisas.png",
+    "text": "Final proyect for JavaScript's course",
+    "web": "zesty-lollipop-a54c21.netlify.app/",
+    "github": "github.com/TomyReiv/primera-entrega-CoderHouse.git"
+   },
+   "grupo terra": {
+    "image": "../../../assets/grupoTerra.png",
+    "text": "Grupo terra web proyect.",
+    "web": "grand-tarsier-ce80a6.netlify.app/",
+    "github": "github.com/TomyReiv/Pagina-web-Grupo-Terra"
+   },
+   "GiftApp": {
+    "image": "../../../assets/giftApp.png",
+    "text": "Proyect in angular curse to Udemy.",
+    "web": "glittering-choux-24c3c7.netlify.app/",
+    "github": "github.com/TomyReiv/GiftApp"
+   },
+   "PaisesApp": {
+    "image": "../../../assets/paisesApp.png",
+    "text": "Proyect in angular curse to Udemy.",
+    "web": "bejewelled-kulfi-270bca.netlify.app/",
+    "github": "github.com/TomyReiv/paisesApp"
+   },
+   "Rock page": {
+    "image": "../../../assets/RockApp.png",
+    "text": "Rock event web proyect to Udemy.",
+    "web": "taupe-boba-b4ba02.netlify.app/",
+    "github": "github.com/TomyReiv/musica-udemy"
+   },
+   "PokeApp": {
+      "image": "../../../assets/pokeApp.png",
+      "text": "Poke api proyetc.",
+      "web": "lovely-daifuku-ff09a0.netlify.app",
+      "github": "github.com/TomyReiv/PokeApp"
+     },
+     "SeriesApp": {
+      "image": "../../../assets/SeriesApp.png",
+      "text": "Personal proyect: To See List!.",
+      "web": "lustrous-mooncake-a88c8c.netlify.app",
+      "github": "github.com/TomyReiv/SeriesApp"
+     }
+}

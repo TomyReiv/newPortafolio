@@ -1,0 +1,9 @@
+div{
+    margin-left: 10%;
+}
+
+@media (width <= 850px){
+    div{
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,22 @@
+.container {
+  -webkit-box-shadow: 0px -2px 26px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -2px 26px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -2px 26px 0px rgba(0, 0, 0, 0.75);
+  padding: 2rem;
+  margin-left: 10%;
+  margin-top: 10rem;
+  width: 100%;
+}
+.skills-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (width <= 850px){
+    .container{
+        margin-left: 0;
+    }
+    .skills-list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

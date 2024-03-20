@@ -1,0 +1,24 @@
+.dock-window{
+    position: fixed;
+    right: 0;
+    top: 20rem;
+}
+.template{
+    margin-top: 5rem;
+}
+.p-dock {
+    z-index: 1000;
+    position: fixed;
+}
+img{
+    width: 3rem;
+    height: 3rem;
+    margin: 5px;
+    object-fit: cover;
+}
+
+@media (width <= 850px) {
+    .dock-window{
+        display: none;
+    }
+}
