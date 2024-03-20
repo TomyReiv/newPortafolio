@@ -11,18 +11,6 @@
     "web": "grand-tarsier-ce80a6.netlify.app/",
     "github": "github.com/TomyReiv/Pagina-web-Grupo-Terra"
    },
-   "GiftApp": {
-    "image": "../../../assets/giftApp.png",
-    "text": "Proyect in angular curse to Udemy.",
-    "web": "glittering-choux-24c3c7.netlify.app/",
-    "github": "github.com/TomyReiv/GiftApp"
-   },
-   "PaisesApp": {
-    "image": "../../../assets/paisesApp.png",
-    "text": "Proyect in angular curse to Udemy.",
-    "web": "bejewelled-kulfi-270bca.netlify.app/",
-    "github": "github.com/TomyReiv/paisesApp"
-   },
    "Rock page": {
     "image": "../../../assets/RockApp.png",
     "text": "Rock event web proyect to Udemy.",
@@ -34,6 +22,12 @@
       "text": "Poke api proyetc.",
       "web": "lovely-daifuku-ff09a0.netlify.app",
       "github": "github.com/TomyReiv/PokeApp"
+     },
+     "Ecommerce": {
+      "image": "../../../assets/ecommerce.webp",
+      "text": "Final proyect career back-end Coderhouse. Backend with Node.js",
+      "web": "https://fastidious-elf-0759fe.netlify.app/",
+      "github": "github.com/TomasRaveDev/serverEcommerce.git"
      },
      "SeriesApp": {
       "image": "../../../assets/SeriesApp.png",
