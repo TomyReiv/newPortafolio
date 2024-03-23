@@ -1,32 +1,33 @@
 {
-   "grupo terra": {
-    "image": "../../../assets/grupoTerra.webp",
-    "text": "Grupo terra web proyect.",
-    "web": "grand-tarsier-ce80a6.netlify.app/",
-    "github": "github.com/TomyReiv/Pagina-web-Grupo-Terra"
-   },
-   "Rock page": {
+  "PokeApp": {
+    "image": "../../../assets/pokeApp.webp",
+    "text": "Poke api proyetc.",
+    "web": "lovely-daifuku-ff09a0.netlify.app",
+    "github": "github.com/TomyReiv/PokeApp"
+  },
+  "Rock page": {
     "image": "../../../assets/RockApp.webp",
     "text": "Rock event web proyect to Udemy.",
     "web": "taupe-boba-b4ba02.netlify.app/",
     "github": "github.com/TomyReiv/musica-udemy"
-   },
-   "PokeApp": {
-      "image": "../../../assets/pokeApp.webp",
-      "text": "Poke api proyetc.",
-      "web": "lovely-daifuku-ff09a0.netlify.app",
-      "github": "github.com/TomyReiv/PokeApp"
-     },
-     "Ecommerce": {
-      "image": "../../../assets/ecommerce.webp",
-      "text": "Final proyect career back-end Coderhouse. Backend with Node.js",
-      "web": "fastidious-elf-0759fe.netlify.app/pages/Home",
-      "github": "github.com/TomasRaveDev/serverEcommerce.git"
-     },
-     "SeriesApp": {
-      "image": "../../../assets/SeriesApp.webp",
-      "text": "Personal proyect: To See List!.",
-      "web": "lustrous-mooncake-a88c8c.netlify.app",
-      "github": "github.com/TomyReiv/SeriesApp"
-     }
+  },
+
+  "grupo terra": {
+    "image": "../../../assets/grupoTerra.webp",
+    "text": "Grupo terra web proyect.",
+    "web": "grand-tarsier-ce80a6.netlify.app/",
+    "github": "github.com/TomyReiv/Pagina-web-Grupo-Terra"
+  },
+  "Ecommerce": {
+    "image": "../../../assets/ecommerce.webp",
+    "text": "Final proyect career back-end Coderhouse. Backend with Node.js",
+    "web": "fastidious-elf-0759fe.netlify.app/pages/Home",
+    "github": "github.com/TomasRaveDev/serverEcommerce.git"
+  },
+  "SeriesApp": {
+    "image": "../../../assets/SeriesApp.webp",
+    "text": "Personal proyect: To See List!.",
+    "web": "lustrous-mooncake-a88c8c.netlify.app",
+    "github": "github.com/TomyReiv/SeriesApp"
+  }
 }

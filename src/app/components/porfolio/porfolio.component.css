@@ -37,6 +37,11 @@ img {
   background: rgb(2,0,36);
   background: radial-gradient(circle, rgba(2,0,36,1) 60%, rgba(19,19,85,1) 95%);
 }
+@media (width <= 650px){
+  .proyect__container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 @media (width <= 850px){
     .container{
         margin-left: 0;
