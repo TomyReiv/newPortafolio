@@ -1,0 +1,30 @@
+# Permite a todos los agentes de usuario acceder a todas las partes del sitio
+User-agent: *
+Disallow:
+
+# Bloquea el acceso a ciertos directorios o páginas específicas
+Disallow: /privado/
+Disallow: /admin/
+
+# Define la ubicación del sitemap.xml para que los motores de búsqueda puedan encontrarlo fácilmente
+Sitemap: https://www.tomasravedev.com.ar/sitemap.xml
+
+# Define la ubicación del archivo de advertencia sobre la ubicación de la política de privacidad
+# Esto puede ser útil para informar a los motores de búsqueda sobre la política de privacidad de tu sitio
+# Privacy policy URL
+# Privacy-policy: https://www.tomasravedev.com.ar/privacy-policy.html
+
+# Define la ubicación del archivo de exclusión de anuncios personalizados de Google
+# Esto es opcional y solo es relevante si utilizas Google AdSense
+# Ads Bot
+# Noindex: /no-advertising/
+
+# Define la ubicación de la página de preferencias de Googlebot
+# Esto es opcional y permite que Googlebot siga las instrucciones específicas para rastrear tu sitio
+# Allow Googlebot to crawl everything
+# Allow: /preferencias-googlebot/
+
+# Define la ubicación del archivo de exclusión de seguimiento de Google Analytics
+# Esto es opcional y relevante si deseas excluir ciertas partes del sitio del seguimiento de Google Analytics
+# Analytics Bot
+# Noindex: /no-tracking/
