@@ -19,10 +19,10 @@
     "github": "github.com/TomyReiv/Pagina-web-Grupo-Terra"
   },
   "Ecommerce": {
-    "image": "../../../assets/ecommerce.webp",
-    "text": "Final proyect career back-end Coderhouse. Backend with Node.js",
-    "web": "fastidious-elf-0759fe.netlify.app/pages/Home",
-    "github": "github.com/TomasRaveDev/serverEcommerce.git"
+    "image": "../../../assets/amplify.webp",
+    "text": "Proyecto de No Country, donde rpgrame el backend",
+    "web": "https://amplify-nocountry.netlify.app/",
+    "github": "https://github.com/TomyReiv/no-country-amplify"
   },
   "SeriesApp": {
     "image": "../../../assets/SeriesApp.webp",
